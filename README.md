@@ -19,7 +19,7 @@ npm install
 Development
 To start the development server:
 npm run dev
-This will run your React project using Vite.
+This will run your React project using Vite on http://localhost:5173/
 
 State Management
 This project uses Redux Toolkit for state management. You can find the Redux logic in the src/features directory.
@@ -49,7 +49,7 @@ python manage.py migrate
 Start the Django development server:
 
 python manage.py runserver
-This will start the backend server on http://localhost:8000/.
+This will start the backend server on http://127.0.0.1:8000/
 
 Authentication
 This project uses JWT authentication. You can find the authentication logic in the blog/views.py directory.

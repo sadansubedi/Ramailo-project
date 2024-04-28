@@ -88,6 +88,12 @@ useEffect(()=>{
           >
             Forgot Password?
           </NavLink>
+      <NavLink
+            to='/register'
+            className="text-blue-600 hover:underline focus:outline-none pl-8"
+          >
+            Register here
+          </NavLink>
     </div>
   );
 };

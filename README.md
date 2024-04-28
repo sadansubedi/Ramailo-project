@@ -13,7 +13,7 @@ This project combines React for the frontend, Django Rest Framework (DRF) for th
    git clone https://github.com/sadansubedi/Ramailo-project.git
    
 Navigate to the frontend directory:
-cd frontend
+cd myblogfront
 Install dependencies:
 npm install
 Development
@@ -25,7 +25,7 @@ State Management
 This project uses Redux Toolkit for state management. You can find the Redux logic in the src/features directory.
 
 RTK Query
-RTK Query is used for API data fetching. It provides a powerful and ergonomic toolset for managing HTTP requests. You can find examples of using RTK Query in the src/services/api directory.
+RTK Query is used for API data fetching. It provides a powerful and ergonomic toolset for managing HTTP requests. You can find examples of using RTK Query in the src/services/userAuthApi directory.
 
 Backend Setup
 Django Installation
@@ -42,7 +42,7 @@ pip install django djangorestframework
 Development
 Navigate to the backend directory:
 
-cd backend
+cd myblogproject
 Run migrations:
 
 python manage.py migrate
@@ -52,4 +52,4 @@ python manage.py runserver
 This will start the backend server on http://localhost:8000/.
 
 Authentication
-This project uses JWT authentication. You can find the authentication logic in the backend/authentication directory.
+This project uses JWT authentication. You can find the authentication logic in the blog/views.py directory.
